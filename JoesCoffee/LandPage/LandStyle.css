@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    /* background-color: rgb(75, 75, 75); */
+    background-color: rgb(242, 242, 242);
 }
 /* Styling to the nav bar + hover */
 ul{
@@ -19,24 +19,62 @@ a, li:hover{
     color: aliceblue;
     cursor: pointer;
 }
-/* the color to the footer a tags */
-.white{
-    color: black;
-}
+
+/* fixing the header */
 header{
     display: flex;
-    align-items: self-end;
 }
 .header-buttons{
-    display: flex;
-    justify-content: right;
+  position: relative;
+  left: 50%;
+  padding-top: 1rem;
 }
 .header-button{
-    padding: 0.4rem;
+    padding: 5px;
+    margin: 5px;
     background-color: #333;
     color: white;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
-.header-butto:hover{
+.header-button:hover{
     background-color: aliceblue;
+}
+/* styling the img1 + Positioning */
+.img1{
+    position: relative;
+    left: 40%;
+}
+/* styling the footer */
+footer{
+    display: flex;
+    justify-content: center;
+}
+/* the color to the footer a tags */
+.white{
+    color: black;
+    font-size: 2rem;
+}
+.white:hover{
+    color: aliceblue;
+}
+/* styling the container and text */
+.container{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+    color: rgb(255, 191, 95);
+}
+h1, h2, p{
+    font-family: Edu TAS Beginner;
+    padding: 0.5rem;
+}
+.contained-text{
+    font-size: 23px;
+    padding: 1rem;
 }
