@@ -46,9 +46,29 @@ header{
     display: flex;
     justify-content: center;
 }
-/* styling the container  */
+/* styling the container and text location  */
 .container{
+   display: flex;
+}
+.gallery{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.description{
+    padding: 8rem;
+    font-size: 2rem;
+}
+.buttons{
+   padding: 0.4rem;
+}
+.order-button{
+    font-size: 18px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+.order-button:hover{
+    cursor: pointer;
+    background-color: rgb(131, 191, 255);
 }
