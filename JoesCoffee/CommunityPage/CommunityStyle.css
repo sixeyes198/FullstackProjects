@@ -46,3 +46,21 @@ header{
     display: flex;
     justify-content: center;
 }
+.container{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: Edu TAS Beginner;
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+}
+.text{
+    padding: 2rem;
+    text-align: center;
+    font-family: Agbalumo;
+    font-size: 1.5rem;
+}
