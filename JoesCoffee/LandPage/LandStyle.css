@@ -43,8 +43,8 @@ header{
 }
 /* styling the img1 + Positioning */
 .img1{
-    position: relative;
-    left: 40%;
+    display: flex;
+    justify-content: center;
 }
 /* styling the footer */
 footer{
